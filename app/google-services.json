@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "389023370068",
+    "firebase_url": "https://ecommerceapp-2351c-default-rtdb.firebaseio.com",
+    "project_id": "ecommerceapp-2351c",
+    "storage_bucket": "ecommerceapp-2351c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389023370068:android:db198dbfb513763d68d6c1",
+        "android_client_info": {
+          "package_name": "com.vktech.ecommerceapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDnc88CPBSF1nY1ZEuRSvPDGbH2SyMgjA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

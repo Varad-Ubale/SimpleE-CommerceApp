@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/gradient_background"> <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Your Shopping Cart"
+    android:textSize="28sp"
+    android:textStyle="bold"
+    android:textColor="#FFFFFF"
+    android:gravity="center_horizontal"
+    android:layout_marginBottom="24dp"
+    android:layout_marginTop="16dp"
+    android:paddingVertical="8dp"
+    android:elevation="6dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingHorizontal="4dp">
+
+        <LinearLayout
+            android:id="@+id/cartItemsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/totalAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total: ₹0.00"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:paddingTop="12dp"
+        android:paddingBottom="8dp"
+        android:gravity="end"
+        android:layout_marginEnd="8dp"/>
+
+    <Button
+        android:id="@+id/placeOrderBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Place Order"
+        android:layout_marginTop="18dp"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingVertical="16dp"
+        app:cornerRadius="12dp"
+        android:elevation="6dp"
+        android:foreground="?android:attr/selectableItemBackground" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="© Made by Varad Ubale"
+        android:textSize="14sp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

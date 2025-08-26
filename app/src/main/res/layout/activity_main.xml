@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="24dp"
+    android:background="@drawable/gradient_background"> <TextView
+    android:id="@+id/tvHeader"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Ecommerce App Portals"
+    android:textSize="32sp"
+    android:textStyle="bold"
+    android:textColor="#FFFFFF"
+    android:fontFamily="sans-serif-condensed-medium"
+    android:paddingVertical="10dp"
+    android:background="@drawable/header_bg"
+    android:elevation="8dp"
+    android:layout_marginBottom="60dp"
+    android:layout_marginTop="32dp"/>
+
+    <Button
+        android:id="@+id/btnAdminPortal"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:text="Admin Portal"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:backgroundTint="#6200EE"
+        android:textColor="#FFFFFF"
+        android:elevation="8dp"
+        app:cornerRadius="20dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:foreground="?android:attr/selectableItemBackground" />
+
+    <Button
+        android:id="@+id/btnCustomerPortal"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:text="Customer Portal"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:backgroundTint="#03DAC5"
+        android:textColor="#FFFFFF"
+        android:elevation="8dp"
+        app:cornerRadius="20dp"
+        android:gravity="center"
+        android:foreground="?android:attr/selectableItemBackground" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="© Made by Varad Ubale"
+        android:textSize="14sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    card_view:cardCornerRadius="16dp"
+    card_view:cardElevation="8dp"
+    card_view:contentPadding="0dp"
+    android:backgroundTint="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="16dp">
+
+        <ImageView
+            android:id="@+id/productImage"
+            android:layout_width="match_parent"
+            android:layout_height="242dp"
+            android:layout_marginBottom="12dp"
+            android:background="#E0E0E0"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cart" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="16dp">
+
+            <TextView
+                android:id="@+id/productName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Product Name"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:textColor="#333333"
+                android:fontFamily="sans-serif-medium"/>
+
+            <TextView
+                android:id="@+id/productPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹0.00"
+                android:textStyle="bold"
+                android:textColor="#4CAF50"
+                android:textSize="18sp"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:id="@+id/productDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A brief and engaging description of the product goes here, highlighting its key features."
+                android:textColor="#616161"
+                android:textSize="14sp"
+                android:layout_marginTop="8dp"
+                android:maxLines="3"
+                android:ellipsize="end"/>
+
+            <Button
+                android:id="@+id/buyBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buy Now"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="#FF9800"
+                android:paddingStart="28dp"
+                android:paddingEnd="28dp"
+                android:paddingVertical="10dp"
+                card_view:cornerRadius="20dp"
+                android:layout_gravity="end"
+                android:elevation="4dp"
+                android:foreground="?android:attr/selectableItemBackground" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
